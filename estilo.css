@@ -1,0 +1,11 @@
+body {
+    background: rosybrown;
+    font: 20pt;
+ }
+ 
+ .card-group {
+   background-color: rgb(202, 202, 202);
+     width: 200px;
+   height: 40px;
+ }
+ 
