@@ -1,32 +1,33 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Tela Usuário </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Tela Login</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>
-        Login
-    </h1>
-    <div class="card-group">
-        <label>Email:</label>
-        <input type="email" name="email" placeholder= "Digite seu email" required>
+  <img id="i1" src="img/scamboo.png" alt="">
+  <div id="login-container">
+    <h1>Login</h1>
+    <form action="">
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email" placeholder="Digite seu e-email" autocomplete="off">
+      <label for="password">Senha</label>
+      <input type="password" name="password" id="password" placeholder="Digite sua senha">
+      <a href="#" id="forgot-pass">Esqueceu a senha?</a>
+      <input type="submit" value="Login">
+    </form>
+    <div id="social-container">
+      <p>Ou entre pelas suas redes sociais</p>
+      <i class="fa fa-facebook-f"></i>
+      <i class="fa fa-linkedin"></i>
     </div>
-    <div class="card-group">
-        <label>Senha:</label>
-        <input type="password" name="senha" placeholder="Digite seua senha" required>
+    <div id="register-container">
+      <p>Ainda não tem uma conta?</p>
+      <a href="#">Registrar</a>
     </div>
-    <div class="card-group">
-        <label><input type ="checkbox"> Lembre-me</label>
-    </div>
-    <div class="card-group">
-        <a href="file:///D:/site%201.1/tela2.html"> Esqueci a senha </a>  
-    </div>
-        <button type="submit">Acessar</button>
-        
-        <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
-      
+  </div>
 </body>
 </html>
