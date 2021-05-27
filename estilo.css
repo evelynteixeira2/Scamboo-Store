@@ -1,6 +1,6 @@
 /* geral */
 
-* {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -27,10 +27,13 @@ a:hover {
 }
 
 /* container login */
+
 #login-container {
+  position: absolute; 
+	left: 90px; /* posiciona a 90px para a esquerda */ 
+	top: 70px;
   background-color: #fcd5ce;
   margin-left: left;
-  margin-right: auto;
   width: 400px;
   padding: 20px 30px;
   margin-top: 10vh;
@@ -39,6 +42,7 @@ a:hover {
 }
 
 /* formulário */
+
 form {
   margin-top: 30px;
   margin-bottom: 40px;
@@ -63,7 +67,7 @@ input {
 }
 
 input:focus {
-  border-bottom: 2px solid #d877c0;
+  border-bottom: 2px solid #be6c77;
 }
 
 #forgot-pass {
@@ -89,6 +93,7 @@ input[type="submit"]:hover {
 }
 
 /* redes sociais */
+
 #social-container {
   margin-bottom: 20px;
 }
@@ -115,6 +120,25 @@ input[type="submit"]:hover {
 }
 
 /* registrar */
+
 #register-container p {
   margin-bottom: 10px;
+}
+
+/* imagens */
+
+img.i1 {
+  position: absolute;
+  left: 500px; /* posiciona a 90px para a esquerda */ 
+  top: 2px; 
+/*max-height: 3px;
+max-width: 2px;
+width: 2px;
+height: 5px; */ 
+}
+
+img.f2 {
+  position: relative;
+  left: 600px; /* posiciona a 90px para a esquerda */ 
+  top: 120px; 
 }
