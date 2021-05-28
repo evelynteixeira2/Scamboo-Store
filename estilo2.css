@@ -11,14 +11,16 @@
     background-color: #f8edeb;
     background-size: cover;
     position: absolute; 
-	left: 90px; /* posiciona a 90px para a esquerda */ 
-	top: 70px;
-  margin-left: left;
+	left: 100px; /* posiciona a 90px para a esquerda */ 
+	top: 5px;
+ 
+  }
+
+
+
+  /*
   width: 400px;
   padding: 20px 30px;
   margin-top: 30vh;
   border-radius: 10px;
-  text-align: center;
-  }
-
-  
+  text-align: center; */
