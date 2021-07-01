@@ -15,15 +15,15 @@
             <div class="user-details">
                 <div class="input-box">
                     <span class="details"> Nome Completo: </span>
-                    <input type="text" placeholder="Digite seu nome">
+                    <input type="text" placeholder="Digite seu nome" required>
                 </div>
                 <div class="input-box">
                     <span class="details"> CPF: </span>
-                    <input type="number" placeholder="Digite seu CPF">
+                    <input type="number" placeholder="Digite seu CPF" required>
                 </div>
                 <div class="input-box">
                     <span class="details"> Data de nascimento: </span>
-                    <input type="text" placeholder="Digite sua data de nascimento">
+                    <input type="text" placeholder="Digite sua data de nascimento" required>
                 </div>
                 <div class="input-box">
                     <span class="details"> Telefone: </span>
@@ -31,23 +31,27 @@
                 </div>
                 <div class="input-box">
                     <span class="details"> Endereço: </span>
-                    <input type="text" placeholder="Digite sua Rua e número:">
-                    <input type="text" placeholder="Digite sua Cidade e Estado:">
+                    <input type="text" placeholder="Digite sua Rua e número:" required>
+                    <input type="text" placeholder="Digite sua Cidade e Estado:" required>
+                </div>
                     <div class="input-box">
                         <span class="details"> E-mail: </span>
-                        <input type="text" placeholder="Digite seu email">
+                        <input type="text" placeholder="Digite seu email" required>
                     </div>
                     <div class="input-box">
                         <span class="details"> Senha: </span>
-                        <input type="text" placeholder="Digite sua senha">
+                        <input type="text" placeholder="Digite sua senha" readonly>     
                     </div>
+                    <div class="input-box">
+                        <span class="details"> Confirmar a Senha: </span>
+                        <input type="text" placeholder="Digite novamente sua senha" readonly>
                 </div>
                 <div class="gender-details">
                     <input type="radio" name="gender" id="dot-1">
                     <input type="radio" name="gender" id="dot-2">
                     <input type="radio" name="gender" id="dot-3">
-                    <span class="gender-title">Gênero: </span>
-                <div class="category"></div>
+                    <span class="gender-title">Gênero</span>
+                <div class="category">
                     <label for="dot-1">
                         <span class="dot one"></span>
                         <span class="gender">Feminino </span>
@@ -65,6 +69,7 @@
                 <div class="button"> 
                     <input type="submit" value="Registrar">
                 </div>
+            </div>
         </form>
     </div>
 </body>
