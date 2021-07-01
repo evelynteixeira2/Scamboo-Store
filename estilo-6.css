@@ -63,13 +63,13 @@ form .user-details .input-box {
 .user-details .input-box input:valid {
 border-color: #be6c77 ;
 }
-form .gender-details .gender-title {
+form .gender-details .gender-title{
     font-size: 20px;
     font-weight: 500;
 }
 form .gender-details .category{
     display: flex;
-    width: 80%;
+    width: 85%;
     margin: 14px 0;
     justify-content:  space-between;
 }
@@ -133,3 +133,4 @@ form button input:hover {
         width: 0;
     }
 }
+
