@@ -18,7 +18,7 @@
   border-radius: 10px;
   position: relative;
   left: 500px;
-    top: 0.2px; 
+    top: 90px; 
   }
 
   img.f1{
@@ -26,7 +26,7 @@
     width: 300px;
     position: relative;
     left: 540px;
-    top: 10px; 
+    top: 80px; 
   }
 
   a.x1 {
@@ -51,7 +51,7 @@ img.f2{
 
 div#senha {
     position: absolute; 
-	left: 490px; /* posiciona a 90px para a esquerda */ 
+	left: 490px; /* posiciona para a esquerda */ 
 	top: 70px;
   background-color: #fcd5ce;
   margin-left: left;
@@ -88,3 +88,9 @@ label, input {
     font-size: 20px;
     cursor: pointer;
   }
+
+  h3 {
+    text-align: center;
+    padding-top: 100px;
+  }
+  
