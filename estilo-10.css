@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(133deg,#f8edeb,#be6c77);
+}
+.containner {
+    padding-left: 90px;
+    justify-content: center;
+    align-items: flex-start;
+}
+h1 {
+   padding-top: 20px;
+}
+h2 {
+    padding-top: 24px;
+}
+h3 {
+    padding: 15px;
+}
+h4 {
+    padding-top: 5px;
+    padding-left: 40px;
+}
+/* Rodapé  */
+.aa {
+    text-decoration: none;
+    color: black;
+}
+.text {
+    text-decoration: none;
+    color: ivory;
+}
+footer{
+    width: 100%;
+    height: 10rem;
+    background-color: #be6c77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-containner1 {
+    display: flex;
+    justify-content: space-between;
+}
+.colum1 {
+    margin-left: 60px;
+}
+.colum3 {
+    margin-right: 60px;
+}
