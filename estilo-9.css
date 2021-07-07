@@ -23,20 +23,91 @@ h1{
     color: rgb(134, 93, 56);
 }
 .p1 {
-    margin-top: 35px;
-    background-color: darkblue;
+    margin-bottom: 35px;
+    margin-left: 5%;
+    height: 650px; 
+    width: 1220px;
+    border: 2px solid #f4cace;
+    display: flex;
+    flex-flow: row;
+}
+.cabeca {
+    margin-left: 5%;
+    text-align: center;
+    background-color: #f4cace;
+    height: 80px; 
+    width: 1219px;
+}
+#em-cima {
+    margin-top: 31px;
+    color: #462c2f;
+}
+.coluna-33 {
+    width: 1000px;
+    margin: 15px 20px 20px 20px;
+    justify-content: space-between;
+    font-size: 19px;
+    border-radius: 12px;
+}
+.f1, .f2, .f3 {
+    border-radius: 50%;
+    height: 200px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p2 {
+    margin-bottom: 35px;
+    margin-left: 5%;
+    height: 450px; 
+    width: 1220px;
+    border: 2px solid #f4cace;
+    display: flex;
+    flex-flow: row;
+}
+.cabeca2 {
+    margin-left: 5%;
+    text-align: center;
+    background-color: #f4cace;
+    height: 80px; 
+    width: 1219px;
+}
+.coluna-50 {
+    width: 1000px;
+    margin: 15px 20px 20px 20px;
+    justify-content: space-between;
+    font-size: 19px;
+    border-radius: 12px;
 }
 .ft_inte {
-    height: 350px; 
+    height: 400px; 
     width: 450px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-p, .ft_inte {
-    display: inline-block;
+.p4 {
+    margin-left: 5%;
+    margin-bottom: 25px;
+    text-align: center;
+    height: 250px; 
+    width: 1219px;
+    display: flex;
+    flex-flow: row;
 }
+.coluna {
+    height: 200px; 
+    width: 390px;
+    margin: 15px 20px 20px 20px;
+}
+
 .i1, .i2, .i3 {
     height: 80px; 
     width: 80px;
 }
+
 
 /* Rodapé  */
 .text {
