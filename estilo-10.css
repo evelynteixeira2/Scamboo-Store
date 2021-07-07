@@ -9,6 +9,13 @@ body {
     flex-direction: column;
     background: linear-gradient(133deg,#f8edeb,#be6c77);
 }
+header {
+    padding-top: 30px;
+ align-self: auto;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
 .em-cima {
     align-self: auto;
     display: flex;
