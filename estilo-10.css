@@ -9,6 +9,12 @@ body {
     flex-direction: column;
     background: linear-gradient(133deg,#f8edeb,#be6c77);
 }
+header {
+    align-self: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .containner {
     padding-left: 90px;
     justify-content: center;
