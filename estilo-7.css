@@ -90,6 +90,7 @@ form button:hover {
     background-color: whitesmoke;
     color:#97465196;
 }
+
 .menu_ ul li  {
     background-color: #be6c77;
     color: wheat;
@@ -156,10 +157,24 @@ a {
     text-decoration: none;
     color: black;
 }
-#botao {
-    border-radius: 10px;
+.vitrine #botao {
+    width: 50%;
+    margin: 5px auto;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    border:  1px solid rgb(255, 175, 175);
+    text-transform: uppercase;
+    color: seashell;
     background-color: #e8949c;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgb(0,0,0,0.3);
 }
+.vitrine #botao:hover {
+    background-color: #efb4ba;
+    color: #8b595e;
+}
+
 /* Rodapé  */
 .text {
     text-decoration: none;
