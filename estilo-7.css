@@ -1,9 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #fdf4f5;
     display: flex;
     flex-direction: column;
+ /*
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vh;
+
+   justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh; */
 }
 .logo {
     align-self: left;
@@ -91,6 +106,8 @@ form button:hover {
     color:#97465196;
 }
 
+/* menu */
+
 .menu_ ul li  {
     background-color: #be6c77;
     color: wheat;
@@ -101,6 +118,7 @@ form button:hover {
     text-align: center;
     line-height: 40px;
     position: relative;
+    
 }
 .dif{
     text-decoration: none;
@@ -109,10 +127,55 @@ form button:hover {
 .menu_ ul li:hover {
     background-color: #e8949c;
 }
-/** Parte do slide **/
-.carousel-inner {
-    margin: 30px 10px 25px 40px;
+
+
+/** Slide **/
+
+.container {
+    height: 400px;
+    width: 1000px;
+    border-radius: 20px;
+    margin: 25px 0;
+    overflow: hidden;
+    position: relative;
 }
+
+.navigation {
+    position: relative;
+    bottom: 20px;
+    left: 56%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 70px;
+    height: 17px;
+    border: 2px solid #8b595e;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.bar:hover {
+    background-color: brown;
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide {
+    width: 28%;
+}
+
 /*vitrine*/
 
 main{
