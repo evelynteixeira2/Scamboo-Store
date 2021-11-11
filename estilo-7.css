@@ -108,6 +108,9 @@ form button:hover {
 
 /* menu */
 
+nav {
+    margin: 0px 50px;
+}
 .menu_ ul li  {
     background-color: #be6c77;
     color: wheat;
