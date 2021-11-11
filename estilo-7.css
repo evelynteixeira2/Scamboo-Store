@@ -114,38 +114,47 @@ form button:hover {
 /* menu */
 
 nav {
-    margin-left: 140px;
+    margin: 20px 300px;
 }
-.menu_ ul li  {
-    background-color: var(--cor-subtomabaixo);
-    color: wheat;
-    float: left;
-    width: 200px;
-    height: 40px;
-    display: inline-block; /* tirar a bolinha*/
-    text-align: center;
-    line-height: 40px;
+.menu_ ul {
+    background-color: var(--cor-subtomabaixo); 
     position: relative;
+    width: 850px;
+    text-align: center;
 }
-.dif{
+.menu_ ul li {
+    display: inline; 
+}
+.menu_ ul li a {
+    color: white;
+    padding: 15px;
     text-decoration: none;
-    color:#f8edeb;
+    display: inline-block; /* colocar alinhado horizontalmente(em uma linha)*/
 }
-.menu_ ul li:hover {
+.menu_ ul li a:hover{
+    color:#f8edeb;
     background-color: var(--cor-base);
 }
 
-.menu ul ul{
-   display: none;
+/* sub menu */
+
+.menu_ ul ul{
+    background-color: var(--cor-subtomabaixo); 
+    display: none;
+    position: absolute;
+    width: 150px;
+    left: 60px;
+}
+.menu_ ul li:hover ul{
+    display: block;
 }
 
-.menu ul ul li:hover>ul {
- display: block;
+.menu_ ul ul li a {
+   display: block;
 }
 
-li .categ:hover {
-   
-}
+
+
 
 /** Slide **/
 
