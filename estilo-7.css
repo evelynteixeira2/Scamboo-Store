@@ -114,13 +114,15 @@ form button:hover {
 /* menu */
 
 nav {
-    margin: 20px 300px;
+    margin: 20px 50px;
 }
 .menu_ ul {
     background-color: var(--cor-subtomabaixo); 
     position: relative;
-    width: 850px;
-    text-align: center;
+    width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .menu_ ul li {
     display: inline; 
@@ -143,7 +145,7 @@ nav {
     display: none;
     position: absolute;
     width: 150px;
-    left: 60px;
+    left: 73px;
 }
 .menu_ ul li:hover ul{
     display: block;
@@ -152,8 +154,6 @@ nav {
 .menu_ ul ul li a {
    display: block;
 }
-
-
 
 
 /** Slide **/
