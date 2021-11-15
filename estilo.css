@@ -8,7 +8,9 @@
   color: #6d3737;
   border: none;
 }
-
+:root{
+  --cor-branco: #FFF;
+}
 body {
   background-color: #f8edeb;
   background-size: cover;
@@ -20,6 +22,7 @@ textarea:focus, input:focus{
 
 a {
   font-size: .8rem;
+  text-decoration: none;
 }
 
 a:hover {
@@ -30,7 +33,7 @@ a:hover {
 
 #login-container {
   position: absolute; 
-	left: 90px; /* posiciona a 90px para a esquerda */ 
+	left: 90px; 
 	top: 70px;
   background-color: #fcd5ce;
   margin-left: left;
@@ -82,7 +85,7 @@ input[type="submit"] {
   height: 40px;
   border-radius: 20px;
   margin-top: 30px;
-  color: #FFF;
+  color: var(--cor-branco);
   background-color: #e2aaa0;
   cursor: pointer;
 }
@@ -108,7 +111,7 @@ input[type="submit"]:hover {
   border-radius: 50%;
   line-height: 40px;
   margin: 0 5px;
-  color: #FFF;
+  color: var(--cor-branco);
 }
 
 .fa-facebook-f {
@@ -121,6 +124,19 @@ input[type="submit"]:hover {
 
 /* registrar */
 
+#register-container {
+  position: relative; 
+	left: 760px; 
+	top: 3px;
+  background-color: #fcd5ce;
+  margin-left: left;
+  width: 400px;
+  padding: 15px 25px;
+  margin-top: 0.1vh;
+  border-radius: 10px;
+  text-align: center;
+}
+
 #register-container p {
   margin-bottom: 10px;
 }
@@ -129,16 +145,17 @@ input[type="submit"]:hover {
 
 img.i1 {
   position: absolute;
-  left: 130px; /* posiciona a 90px para a esquerda */ 
-  top: 2px; 
-/*max-height: 3px;
-max-width: 2px;
-width: 2px;
-height: 5px; */ 
+  left: 105px; 
+  top: 8px; 
+  max-height: 250px;
+  max-width: 350px;
 }
 
 img.f2 {
   position: relative;
-  left: 600px; /* posiciona a 90px para a esquerda */ 
-  top: 120px; 
+  left: 700px; 
+  top: 5px; 
+  min-width: 489px;
+  max-height: 489px;
+
 }
