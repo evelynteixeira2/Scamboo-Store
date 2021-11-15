@@ -7,9 +7,11 @@
     <title> Tela de Cadastro </title>
     <link rel="shortcut icon" href="img/scamboo icone png.png" type="image/x-icon">
     <link rel="stylesheet" href="estilo-6.css">
-    <a href="tela7_principal.html"> <img class="f1" src="img/scamboo-logo-cima.png" alt="logo"> </a>
 </head>
 <body>
+  <main>
+        <a href="tela7_principal.html"> <img class="f1" src="img/scamboo-logo-cima.png" alt="notão de volta"> </a>
+    </main> 
     <div class="container">
         <div class="title"> Cadastro </div>
         <form action="#">
@@ -41,17 +43,17 @@
                     </div>
                     <div class="input-box">
                         <span class="details"> Senha: </span>
-                        <input type="text" placeholder="Digite sua senha" readonly>     
-                    </div>
-                    <div class="input-box">
+                        <input type="text" placeholder="Digite sua senha" readonly> 
                         <span class="details"> Confirmar a Senha: </span>
-                        <input type="text" placeholder="Digite novamente sua senha" readonly>
-                </div>
+                        <input type="text" placeholder="Digite novamente sua senha" readonly>    
+                    </div>
+                  
                 <div class="gender-details">
                     <input type="radio" name="gender" id="dot-1">
                     <input type="radio" name="gender" id="dot-2">
                     <input type="radio" name="gender" id="dot-3">
                     <span class="gender-title">Gênero</span>
+
                 <div class="category">
                     <label for="dot-1">
                         <span class="dot one"></span>
@@ -67,11 +69,29 @@
                     </label>
                 </div>
                 </div>
+
+                <div class="escolha"> 
+                    <span class="escolha-title"> Você é:</span>
+
+                    <div class="categoria">
+                    <label for="botao">
+                        <span class="b"></span>
+                        <span class="escolha"> Vendedor </span>
+                    </label>
+                    <label for="botao">
+                        <span class="b2"></span>
+                        <span class="escolha"> Cliente </span>
+                    </label>
+                </div>
+                </div>
                 <div class="button"> 
                     <input type="submit" value="Registrar">
                 </div>
             </div>
         </form>
     </div>
+    
+   
+   
 </body>
 </html>
