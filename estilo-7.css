@@ -8,22 +8,14 @@
     --cor-fundo:#fdf4f5;
     --cor-base: #e8949c;
     --cor-subtomabaixo: #be6c77;
+    --cor-branca: white;
+    --cor-marrom-letras: #97465196;
 }
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--cor-fundo);
     display: flex;
     flex-direction: column;
- /*
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100vh;
-
-   justify-content: center;
-    align-items: center;
-    margin: 0;
-    min-height: 100vh; */
 }
 .logo {
     align-self: left;
@@ -108,13 +100,13 @@ form button {
 }
 form button:hover {
     background-color: whitesmoke;
-    color:#97465196;
+    color:var(--cor-marrom-letras);
 }
 
 /* menu */
 
 nav {
-    margin: 20px 50px;
+    margin: 20px 0px;
 }
 .menu_ ul {
     background-color: var(--cor-subtomabaixo); 
@@ -128,7 +120,7 @@ nav {
     display: inline; 
 }
 .menu_ ul li a {
-    color: white;
+    color: var(--cor-branca);
     padding: 15px;
     text-decoration: none;
     display: inline-block; /* colocar alinhado horizontalmente(em uma linha)*/
