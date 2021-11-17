@@ -8,17 +8,24 @@
 
 }
 
+:root{
+    --cor-fundo:#fdf4f5;
+    --cor-base: #e8949c;
+    --cor-subtomabaixo: #be6c77;
+    --cor-branca: white;
+    --cor-marrom-letras: #97465196;
+}
+
 .f1{
     position: absolute;
-    left: 480px; 
-    top: 8px; 
-    max-height: 250px;
-    max-width: 350px;
-
+    left: 530px; 
+    top: 5px; 
+    max-height: 150px;
+    max-width: 250px;
   }
 body {
-    display: flex;
-    height: 100vh;
+    display: -moz-inline-stack;
+    height: 110vh;
     justify-content: center;
     align-items: center;
     background: linear-gradient(133deg,#f8edeb,#ff667b);
@@ -29,7 +36,9 @@ body {
     background: linen;
     padding: 25px 30px;
     border-radius: 5px;
-    margin-top: 150px;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container .title {
     font-size: 25px;
@@ -80,10 +89,6 @@ form .user-details .input-box {
  transition: all 0.3s ease;
 }
 
-.user-details .input-box input:focus, 
-.user-details .input-box input:valid {
-border-color: #be6c77 ;
-}
 form .gender-details .gender-title{
     font-size: 20px;
     font-weight: 500;
@@ -92,13 +97,13 @@ form .gender-details .category{
     display: flex;
     width: 85%;
     margin: 14px 0;
-    justify-content:  space-between;
+    justify-content:  space-around;
 }
 .gender-details .category label{
 display: flex;
 align-items: center;
 }
-.gender-details .category .dot{
+.gender-details .category .dot {
     height: 18px;
     width: 18px;
     background: #d9d9d9;
@@ -158,4 +163,30 @@ form .button input:hover {
     .user-details::-webkit-scrollbar{
         width: 0;
     }
+}
+
+/* Rodapé  */
+.text {
+    text-decoration: none;
+    color: ivory;
+}
+footer{
+    width: 100%;
+    height: 8rem;
+    background-color: var(--cor-subtomabaixo);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin: 20px 0px 0px 0px;
+    position: relative;
+}
+.footer-containner1 {
+    display: flex;
+    justify-content: space-around;
+}
+.colum1 {
+    margin-left: 60px;
+}
+.colum3 {
+    margin-right: 60px;
 }
