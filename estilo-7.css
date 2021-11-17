@@ -106,12 +106,12 @@ form button:hover {
 /* menu */
 
 nav {
-    margin: 20px 0px;
+    margin: 20px 30px;
 }
 .menu_ ul {
     background-color: var(--cor-subtomabaixo); 
     position: relative;
-    width: 1400px;
+    width: 1300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -137,7 +137,7 @@ nav {
     display: none;
     position: absolute;
     width: 150px;
-    left: 73px;
+    left: 70px;
 }
 .menu_ ul li:hover ul{
     display: block;
@@ -207,12 +207,13 @@ color: var(--cor-subtomabaixo);
 }
 .produtos {
 width: 90vw;
-margin: 0px 1px 0px 10px;
+margin: 0px 1px 0px 60px;
 }
 main .produtos .vitrines {
 display:flex;
-flex-direction:row-reverse;
+flex-direction: row;
 margin: 0px 50px;
+align-items: center;
 }
 .vitrine {
 background: #f8f8ff;
@@ -241,7 +242,7 @@ a {
 }
 .vitrine #botao {
     width: 50%;
-    margin: 5px auto;
+    margin: 5px 0px 6px 70px;
     padding: 10px;
     font-weight: bold;
     border-radius: 5px;
