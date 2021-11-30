@@ -4,13 +4,17 @@
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
 }
+:root{
+    --cor-fundo:#fdf4f5;
+    --cor-subtomabaixo: #be6c77;
+}
 body {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(133deg,#f8edeb,#be6c77);
+    background: var(--cor-fundo);
 }
 header {
-    padding-top: 30px;
+ padding-top: 30px;
  align-self: auto;
  display: flex;
  flex-direction: row;
@@ -29,16 +33,32 @@ header {
 }
 h1 {
    padding-top: 20px;
+   color: var(--cor-subtomabaixo);
 }
 h2 {
     padding-top: 24px;
+    color: var(--cor-subtomabaixo);
 }
 h3 {
     padding: 15px;
+    color: var(--cor-subtomabaixo);
 }
 h4 {
     padding-top: 5px;
     padding-left: 40px;
+    color: var(--cor-subtomabaixo);
+}
+.conf {
+    height: 95px; 
+    width: 90px;
+}
+.logo {
+    position: absolute;
+    display: table-column;
+    flex-direction: row-reverse;
+    height: 150px; 
+    width: 450px;
+    left: 900px;
 }
 /* Rodapé  */
 .aa {
