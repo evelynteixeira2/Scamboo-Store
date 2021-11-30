@@ -106,7 +106,7 @@ form button:hover {
 /* menu */
 
 nav {
-    margin: 20px 30px;
+    margin: 20px 80px;
 }
 .menu_ ul {
     background-color: var(--cor-subtomabaixo); 
