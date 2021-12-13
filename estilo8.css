@@ -68,6 +68,17 @@ body{
     height: 50px;
 }
 
+.botao_compra {
+    margin: 190px 10px 10px 250px;
+    padding: 10px 15px;
+    background-color: var(--cor-subtomabaixo);
+    color: white;
+    cursor: pointer;
+}
+
+.botao_compra:hover {
+ background-color: var(--cor-base);
+}
 /* Rodapé  */
 .text {
     text-decoration: none;
