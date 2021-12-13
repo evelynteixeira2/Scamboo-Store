@@ -131,7 +131,7 @@ input[type="submit"]:hover {
 #register-container {
   position: relative; 
 	left: 760px; 
-	top: 3px;
+	top: 350px;
   background-color: #fcd5ce;
   margin-left: left;
   width: 400px;
@@ -156,12 +156,19 @@ img.i1 {
 }
 
 img.f2 {
-  position: relative;
+  position: fixed;
   left: 700px; 
-  top: 5px; 
+  top: 3px; 
   min-width: 489px;
   max-height: 489px;
 
+}
+
+.i2 {
+  position: relative;
+  margin: 40px 30px;
+  max-height: 50px;
+  max-width: 50x;
 }
 
 
@@ -177,9 +184,10 @@ footer{
   display: flex;
   justify-content: center;
   padding-top: 10px;
-  margin: 50px 0px 0px 0px;
+  margin: 400px 0px 0px 0px;
 }
 .footer-containner1 {
+  position: relative;
   display: flex;
   justify-content: space-around;
 }
