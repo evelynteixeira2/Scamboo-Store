@@ -18,17 +18,23 @@
 
 .f1{
     position: absolute;
-    left: 530px; 
-    top: 5px; 
+    left: 630px; 
+    top: 40px; 
     max-height: 150px;
     max-width: 250px;
   }
+.f2{
+    position: relative;
+    margin: 40px ;
+    max-height: 50px;
+    max-width: 50px;
+}
 body {
     display: -moz-inline-stack;
-    height: 110vh;
+    height: 190vh;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(133deg,#f8edeb,#ff667b);
+    background: linear-gradient(133deg,#f8edeb,#ffa5b1);
 }
 .container {
     max-width: 1050px;
@@ -36,13 +42,13 @@ body {
     background: linen;
     padding: 25px 30px;
     border-radius: 5px;
-    margin-top: 90px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 .container .title {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 500px;
     position: relative;
 }
 
@@ -59,13 +65,14 @@ body {
 
 /*  Todos os formulários do cadastro  */
 .container form .user-details {
-    display: flex;
+    display: inline;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 20px 0 12px 0;
+    padding: 10px 15px;
+    margin: 0px;
 }
 form .user-details .input-box {
-    margin-bottom: 15px;
+    margin-bottom: 35px;
     width: calc(100%/2-20px);
 }
 .user-details .input-box .details {
